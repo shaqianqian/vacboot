@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/vacuityv/SpringcloudConfig/
+          search-paths: respo
+          username: vacuityv
+          password: I1love1you
+      label: master
+server:
+  port: 8888
